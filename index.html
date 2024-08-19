@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carta</title>
+        <link rel="stylesheet" href="diseño.css">
+    </head>
+    <body>
+
+        <div class="welcome-message" id="welcome-message">
+            <p>tap tap tap a la pantalla.(a las letras y solo dos clicks TT)</p>
+        </div>
+
+        <div class="envelope" id="envelope">
+            <div class="heart" onclick="openEnvelope()">
+                🧡
+            </div>
+        </div>
+        <div class="letter hidden" id="letter">
+            <div class="content">
+                <!-- Rectángulos -->
+                <div class="rectangle top-left">
+                    <h2 class="rectangle-title">FELIZ CUMPLEAÑOS MI SEÑORITA!!!</h2>
+                    <p class="rectangle-text">feliz cumpleaños niña, espero que sea un dia bonito aunque tal vez pienes lo contrario si lo estas haciendo, te deseo el resto de años conmigo y más que ello
+                        deseo de todo corazon en que puedas sentirte calida a mi lado, a lado de las personas que te quieren y tambien de la señora rosa, recuerdo siempre que no habran segundas oportunidades cuando
+                        sea tarde de querer cambiar las cosas asi que tenemos que dar todo de nosotros en todos los aspectos de esta vida, no te suprimas ni mucho menos te menosprecies porque eres una persona maravillosa,
+                        me alegra poder compartir este dia contigo y te deseo todos los exitos de esta vida, junto con el exito que pueda ser como persona tambien te lo ofrezco para ti, te amo mucho asi que no te rindas mientras este aqui
+                        , todo tiene una solucion y no tenemos el porque complicarnos si aún no lo intentamos. feliz 21 añitos mi niña 
+                    </p>
+                </div>
+                <div class="rectangle bottom-right">
+                    <h2 class="rectangle-title"> Ultimas palabras:</h2>
+                    <p class="rectangle-text"> en esta parte quiero decirte que me gustas mucho y aprecio mucho de la chica que me muestras ser ahora, eres perseverante en cada una de tus cosas y
+                        eso es algo que siempre admiro de ti, mi corazon te ama demasiado y no ve el momento en que hagamos realidad todas las cosas que deseamos juntos, yo seré paciente con todo y sé 
+                        que ambos estaremos ahi dandonos la mano, no nos soltemos asi por asi, hagamos las cosas diferentes, siemre vas a ser mi diamante asi que tienes que cuidarte mucho mientras no este cerca a ti, 
+                        en verdad espero que sea un dia bonito aunque tal vez no estemos llenos de muchas cosas espero te guste todo lo que tengo preparado para ti, me quiero quedar contigo siempre pero eso no quita que tanto
+                        tu como yo debemos de cambiar nuestra manera de ser, este y muchos años más que estan por venir disfrutalos mucho, eres una gran chica y asi como tu mamá yo tambien estoy muy orgulloso de ti, 
+                        animo con todo gatita, no te des por vencida nunca, tu siempre vas a poder, yo no pense que podria enamorarme pero ahora que te he conocido y estoy demasiado enamorado de ti quiero que sepas que 
+                        te dedico mi version más autentica, algo que solo mostrare hacia ti y que quisiera ahora abrazarte muy fuerte mientras solo estamos los dos sin ningun pensamiento mas que sentirnos calidos
+                        te extraño mucho, espero pronto volver a sentirte y a acariciarte.(luego de que termines de leer todo presiona tu version gatito)
+                    </p>
+                </div>
+                <img src="2.png" alt="Imagen Izquierda" class="side-image left">
+                <img src="3.jpeg" alt="Imagen Derecha" class="side-image right" id="play-video">
+            </div>
+        </div>
+        <!-- Elemento de audio oculto pero reproducido en segundo plano -->
+    <audio id="peperoni" autoplay>
+        <source src="4.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+    <audio id="background-audio" autoplay loop>
+        <source src="1.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+    <div id="video-container" class="video-container hidden">
+        <span id="close-video" class="close-button">&times;</span>
+        <video id="video" controls>
+            <source src="5.mp4" type="video/mp4">
+            Tu navegador no soporta el formato de video.
+        </video>
+    </div>
+
+    
+
+        <script src="codigo.js"></script>
+    </body>
+</html>
+
